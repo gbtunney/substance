@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sbsdescription SYSTEM "sbsdescription.dtd">
+<sbsdescription formatversion="2.1" asmuid="2537438202" cookerbuild="16534" content="full">
+	<graphs count="1">
+		<graph pkgurl="pkg://Colour_Bands" label="Colour Bands" keywords="Pattern" description="Generates a series of vertical colour bands, based on a large variety of modes and paramaters.  " category="Generator" author="Takanu">
+			<sbspresets/>
+			<guigroups/>
+			<outputs count="1">
+				<output uid="3312452637" identifier="output"
+					format="0" width="256" height="256" mipmaps="0" dynamicsize="yes">
+					<outputgui label="output">
+						<channels/>
+					</outputgui>
+				</output>
+			</outputs>
+			<inputs count="17">
+				<input uid="3071795434" identifier="$outputsize"
+					type="8" default="8,8" alteroutputs="3312452637" alternodes="0"/>
+				<input uid="3286738" identifier="$pixelsize"
+					type="1" default="1,1" alteroutputs="" alternodes="0"/>
+				<input uid="3764778680" identifier="$randomseed"
+					type="4" default="0" alteroutputs="3312452637" alternodes="0"/>
+				<input uid="3312452781" identifier="Band_Count"
+					type="4" default="8" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="slider" label="Band_Count">
+						<guislider  min="1" max="30" step="1"/>
+					</inputgui>
+				</input>
+				<input uid="3312466732" identifier="Power_of_2"
+					type="4" default="0" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="togglebutton" label="Power_of_2"/>
+				</input>
+				<input uid="3312797093" identifier="Color_Mode"
+					type="4" default="0" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="combobox" label="Colour Mode">
+						<guicombobox>
+							<guicomboboxitem value="0" text="Random Colours"/>
+							<guicomboboxitem value="1" text="Defined Colours"/>
+							<guicomboboxitem value="2" text="Gradient"/>
+						</guicombobox>
+					</inputgui>
+				</input>
+				<input uid="3312800923" identifier="Colour_Spread"
+					type="4" default="0" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="combobox" label="Colour_Spread" visibleif="input[&quot;Color_Mode&quot;] == 1">
+						<guicombobox>
+							<guicomboboxitem value="0" text="Linear Spread"/>
+							<guicomboboxitem value="1" text="Random Spread"/>
+							<guicomboboxitem value="2" text="Probability Spread"/>
+						</guicombobox>
+					</inputgui>
+				</input>
+				<input uid="3312796748" identifier="Lower_Colour_Range"
+					type="3" default="0,0,0,1" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="color" label="Lower_Colour_Range" visibleif="input[&quot;Color_Mode&quot;] == 0"/>
+				</input>
+				<input uid="3312796843" identifier="Upper_Colour_Range"
+					type="3" default="1,1,1,1" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="color" label="Upper_Colour_Range" visibleif="input[&quot;Color_Mode&quot;] == 0"/>
+				</input>
+				<input uid="3312806961" identifier="Band_Colours"
+					type="4" default="1" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="slider" label="Band_Colours" visibleif="input[&quot;Color_Mode&quot;] == 1 &amp;&amp; input[&quot;Colour_Spread&quot;] != 2">
+						<guislider  min="1" max="5" step="1"/>
+					</inputgui>
+				</input>
+				<input uid="3305179828" identifier="Probability"
+					type="0" default="0.5" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="slider" label="Probability" visibleif="input[&quot;Colour_Spread&quot;] == 2 &amp;&amp; input[&quot;Color_Mode&quot;] == 1">
+						<guislider  min="0" max="1" step="0.01"/>
+					</inputgui>
+				</input>
+				<input uid="3312806606" identifier="Colour_1"
+					type="3" default="0,0,0,1" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="color" label="Colour_1" visibleif="input[&quot;Color_Mode&quot;] != 0"/>
+				</input>
+				<input uid="3312806622" identifier="Colour_2"
+					type="3" default="0,0,0,1" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="color" label="Colour_2" visibleif="input[&quot;Color_Mode&quot;] != 0 &amp;&amp; (input[&quot;Band_Colours&quot;] &gt; 1 || input[&quot;Color_Mode&quot;] == 2)"/>
+				</input>
+				<input uid="3312807213" identifier="Colour_3"
+					type="3" default="0,0,0,1" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="color" label="Colour_3" visibleif="input[&quot;Color_Mode&quot;] == 1 &amp;&amp; input[&quot;Band_Colours&quot;] &gt; 2 &amp;&amp; input[&quot;Colour_Spread&quot;] != 2"/>
+				</input>
+				<input uid="3312807225" identifier="Colour_4"
+					type="3" default="0,0,0,1" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="color" label="Colour_4" visibleif="input[&quot;Color_Mode&quot;] == 1 &amp;&amp; input[&quot;Band_Colours&quot;] &gt; 3 &amp;&amp; input[&quot;Colour_Spread&quot;] != 2"/>
+				</input>
+				<input uid="3312807223" identifier="Colour_5"
+					type="3" default="0,0,0,1" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="color" label="Colour_5" visibleif="input[&quot;Color_Mode&quot;] == 1 &amp;&amp; input[&quot;Band_Colours&quot;] &gt; 4 &amp;&amp; input[&quot;Colour_Spread&quot;] != 2"/>
+				</input>
+				<input uid="3312756843" identifier="Seed"
+					type="4" default="1" alteroutputs="3312452637" alternodes="0">
+					<inputgui widget="slider" label="Seed" visibleif="input[&quot;Color_Mode&quot;] == 0 || input[&quot;Colour_Spread&quot;] == 1 || input[&quot;Colour_Spread&quot;] == 2">
+						<guislider  min="0" max="50" step="1"/>
+					</inputgui>
+				</input>
+			</inputs>
+		</graph>
+	</graphs>
+</sbsdescription>

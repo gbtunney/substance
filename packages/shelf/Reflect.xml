@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sbsdescription SYSTEM "sbsdescription.dtd">
+<sbsdescription formatversion="2.1" asmuid="2537438658" cookerbuild="16534" content="full">
+	<graphs count="1">
+		<graph pkgurl="pkg://Reflect" label="Reflect" primaryinput="input" keywords="Transformation" description="Super-reflect!  Lets you reflect a segment of the image into the empty portions of the image." category="Filter" author="Takanu">
+			<sbspresets/>
+			<guigroups/>
+			<outputs count="1">
+				<output uid="56904174" identifier="Output"
+					format="0" width="256" height="256" mipmaps="0" dynamicsize="yes">
+					<outputgui label="Output" group="Material">
+						<channels>
+							<channel names="diffuse"/>
+						</channels>
+					</outputgui>
+				</output>
+			</outputs>
+			<inputs count="7">
+				<input uid="1910689704" identifier="$outputsize"
+					type="8" default="8,8" alteroutputs="56904174" alternodes="0"/>
+				<input uid="3334932880" identifier="$pixelsize"
+					type="1" default="1,1" alteroutputs="" alternodes="0"/>
+				<input uid="59172833" identifier="input"
+					type="5" alteroutputs="56904174" alternodes="0">
+					<inputgui widget="image" label="input">
+						<guiimage  colortype="color">
+						<channels/>
+						</guiimage>
+					</inputgui>
+				</input>
+				<input uid="59172130" identifier="Reflect_Mode"
+					type="4" default="0" alteroutputs="56904174" alternodes="0">
+					<inputgui widget="combobox" label="Reflect_Mode">
+						<guicombobox>
+							<guicomboboxitem value="0" text="Halves"/>
+							<guicomboboxitem value="1" text="Quads"/>
+						</guicombobox>
+					</inputgui>
+				</input>
+				<input uid="59171681" identifier="Reflect_Vertically"
+					type="4" default="0" alteroutputs="56904174" alternodes="0">
+					<inputgui widget="togglebutton" label="Reflect_Vertically" visibleif="input[&quot;Reflect_Mode&quot;] == 0"/>
+				</input>
+				<input uid="59174519" identifier="Flip_Sample"
+					type="4" default="0" alteroutputs="56904174" alternodes="0">
+					<inputgui widget="togglebutton" label="Flip_Sample" visibleif="input[&quot;Reflect_Mode&quot;] == 0"/>
+				</input>
+				<input uid="59172820" identifier="Quadrant_Pick"
+					type="8" default="2,1" alteroutputs="56904174" alternodes="0">
+					<inputgui widget="slider" label="Quadrant_Pick" visibleif="input[&quot;Reflect_Mode&quot;] == 1">
+						<guislider  min="1,1" max="2,2" step="1" label0="X" label1="Y"/>
+					</inputgui>
+				</input>
+			</inputs>
+		</graph>
+	</graphs>
+</sbsdescription>
