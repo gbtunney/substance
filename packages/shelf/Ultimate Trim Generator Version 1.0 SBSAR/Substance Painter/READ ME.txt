@@ -1,0 +1,6 @@
+-The SBSAR for older substance painter versions includes a manual switch for switching between Direct X 
+and OpenGL normalmap formats. 
+-Newer versions of substance painter will properly switch between formats
+by using: Edit - Project configuration - Normal Map Format
+-Older versions of substance painter have this same switch, but it may not work 
+for causing the output of this tool to switch formats.
