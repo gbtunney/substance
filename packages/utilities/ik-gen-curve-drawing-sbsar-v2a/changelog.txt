@@ -1,0 +1,11 @@
+#####    v.2    #####
+
+1. [New Input drivers]: Shape, Spiral
+2. [New Utilities]: Curve transform, Polygonizer, Curve merge
+3. [New Tools]: Extrude Profile
+4. [New Samples]: Panels, Greek vase, Whorl, Celtic knot
+5. [Curve sampler]: unclamped sample pivot coordinates
+6. [Curve sampler]: added new sample placement feature - Offset samples by half
+7. [Input drivers]: Updated icons to increase readability
+8. [Input drivers]: Changed category, tags and labels to improve sorting within library/spacebar menu
+9. [Source]: Moved most of the nodes to stock dependencies

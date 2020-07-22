@@ -1,0 +1,1 @@
+Unpack zip achive content into your Substance designer library location, then open "ik_gen_curve_TUTORIAL.sbs" to learn how to use it.
