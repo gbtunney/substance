@@ -5,3 +5,6 @@ scratch
 packages/utilities/.autosave
 packages/utilities/Bruno_Advanced_Crop/.autosave
 *.autosave
+*.zip
+*.psd
+*.ai
