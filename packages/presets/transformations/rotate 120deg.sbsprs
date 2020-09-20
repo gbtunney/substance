@@ -1,0 +1,12 @@
+<sbspresets formatversion="1" count="1">
+ <sbspreset label="preset" pkgurl="pkg:///groups/17_p6m" usertags="">
+  <presetinput value="1,1" uid="4294967295" type="1" identifier="$pixelsize"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="$randomseed"/>
+  <presetinput value="-0.5,-0.866025,0.866025,-0.5" uid="4294967295" type="3" identifier="matrix22"/>
+  <presetinput value="0,0" uid="4294967295" type="1" identifier="offset"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="mipmapmode"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="manualmiplevel"/>
+  <presetinput value="0,0,0,0" uid="4294967295" type="4294967295" identifier="mattecolor"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="filtering"/>
+ </sbspreset>
+</sbspresets>

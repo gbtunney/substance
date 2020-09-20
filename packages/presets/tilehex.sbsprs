@@ -1,0 +1,47 @@
+<sbspresets formatversion="1" count="1">
+ <sbspreset label="preset" pkgurl="pkg:///tile_generator_color" usertags="">
+  <presetinput value="1,1" uid="4294967295" type="1" identifier="$pixelsize"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="$randomseed"/>
+  <presetinput value="2" uid="4294967295" type="4" identifier="x_amount"/>
+  <presetinput value="2" uid="4294967295" type="4" identifier="y_amount"/>
+  <presetinput value="1" uid="4294967295" type="4" identifier="non_square_expansion"/>
+  <presetinput value="1" uid="4294967295" type="4" identifier="pattern"/>
+  <presetinput value="1" uid="4294967295" type="4" identifier="pattern_input_number"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="pattern_input_distribution"/>
+  <presetinput value="0.2,0" uid="4294967295" type="1" identifier="pattern_specific"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="image_input_filtering"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="pattern_rotation"/>
+  <presetinput value="0" uid="4294967295" type="0" identifier="pattern_rotation_random"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="pattern_quincunx_flip"/>
+  <presetinput value="0" uid="4294967295" type="0" identifier="pattern_symmetry_random"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="pattern_symmetry_random_mode"/>
+  <presetinput value="0.5,0.5" uid="4294967295" type="1" identifier="middle_size"/>
+  <presetinput value="0.134666,0,0,0" uid="4294967295" type="3" identifier="interstice"/>
+  <presetinput value="1.33333" uid="4294967295" type="0" identifier="scale"/>
+  <presetinput value="0" uid="4294967295" type="0" identifier="scale_random"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="scale_random_Seed"/>
+  <presetinput value="0.5" uid="4294967295" type="0" identifier="position_offset"/>
+  <presetinput value="0" uid="4294967295" type="0" identifier="position_offset_random"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="offset_random_seed"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="vertical_offset"/>
+  <presetinput value="0,0" uid="4294967295" type="1" identifier="position_random"/>
+  <presetinput value="0,0" uid="4294967295" type="1" identifier="global_offset"/>
+  <presetinput value="0" uid="4294967295" type="0" identifier="rotation"/>
+  <presetinput value="0" uid="4294967295" type="0" identifier="rotation_random"/>
+  <presetinput value="1,1,1,1" uid="4294967295" type="3" identifier="pattern_color"/>
+  <presetinput value="0,0,0,0" uid="4294967295" type="3" identifier="pattern_color_random"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="luminance_by_number"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="luminance_by_scale"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="checker_mask"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="horizontal_mask"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="vertical_mask"/>
+  <presetinput value="0" uid="4294967295" type="0" identifier="random_mask"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="invert_mask"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="blending_mode"/>
+  <presetinput value="0,0,0,1" uid="4294967295" type="3" identifier="background_color"/>
+  <presetinput value="1" uid="4294967295" type="0" identifier="global_opacity"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="reverse_rendering_order"/>
+  <presetinput value="3" uid="4294967295" type="4" identifier="by_number_parametrisation"/>
+  <presetinput value="3" uid="4294967295" type="4" identifier="by_scale_parametrisation"/>
+ </sbspreset>
+</sbspresets>

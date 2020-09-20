@@ -1,0 +1,12 @@
+<sbspresets formatversion="1" count="1">
+ <sbspreset label="preset" pkgurl="pkg:///CC_TriangleShapes" usertags="">
+  <presetinput value="1,1" uid="4294967295" type="1" identifier="$pixelsize"/>
+  <presetinput value="0" uid="4294967295" type="4" identifier="$randomseed"/>
+  <presetinput value="8,8" uid="4294967295" type="8" identifier="$outputsize"/>
+  <presetinput value="1" uid="4294967295" type="4" identifier="Triangle_Type"/>
+  <presetinput value="0,0" uid="4294967295" type="1" identifier="Position1"/>
+  <presetinput value="1,0" uid="4294967295" type="1" identifier="Position2"/>
+  <presetinput value="0,1" uid="4294967295" type="1" identifier="Position3"/>
+  <presetinput value="0" uid="4294967295" type="0" identifier="Roundness"/>
+ </sbspreset>
+</sbspresets>
