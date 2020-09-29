@@ -1,0 +1,14 @@
+<sbspresets formatversion="1" count="1">
+ <sbspreset pkgurl="pkg:///AdvancedMirror" usertags="" label="preset">
+  <presetinput value="8,8" type="8" uid="4294967295" identifier="$outputsize"/>
+  <presetinput value="1,1" type="1" uid="4294967295" identifier="$pixelsize"/>
+  <presetinput value="0" type="4" uid="4294967295" identifier="$randomseed"/>
+  <presetinput value="0" type="4" uid="4294967295" identifier="ColorMode"/>
+  <presetinput value="0" type="4" uid="4294967295" identifier="RepeatMode"/>
+  <presetinput value="0" type="4" uid="4294967295" identifier="ExtendMode"/>
+  <presetinput value="1,0" type="1" uid="4294967295" identifier="Point1"/>
+  <presetinput value="0,1" type="1" uid="4294967295" identifier="Point2"/>
+  <presetinput value="1" type="0" uid="4294967295" identifier="BackgroundColor"/>
+  <presetinput value="1,1,1,0" type="3" uid="4294967295" identifier="BackgroundColor_1"/>
+ </sbspreset>
+</sbspresets>

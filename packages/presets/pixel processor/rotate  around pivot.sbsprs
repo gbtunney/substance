@@ -1,0 +1,8 @@
+<sbspresets count="1" formatversion="1">
+ <sbspreset pkgurl="pkg:///Rotae_Around_Pivot" label="preset" usertags="">
+  <presetinput type="1" identifier="$pixelsize" value="1,1" uid="4294967295"/>
+  <presetinput type="4" identifier="$randomseed" value="0" uid="4294967295"/>
+  <presetinput type="4" identifier="colorswitch" value="0" uid="4294967295"/>
+  <presetinput type="4294967295" identifier="perpixel" value="0,0,0,1" uid="4294967295"/>
+ </sbspreset>
+</sbspresets>
